@@ -1,0 +1,12 @@
+[user]
+	name = vastar
+	email = 14828097+vastar@users.noreply.github.com
+[core]
+	fileMode = false
+	editor = nvim -f
+	autocrlf = input
+	pager = nvim -R
+[merge]
+	tool = vimdiff
+[mergetool]
+	path = nvim

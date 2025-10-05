@@ -1,0 +1,12 @@
+*
+!*/
+!byedpi/**
+!environment.d/**
+!git/**
+!mpv/**
+!nushell/**
+nushell/history.txt
+!nvim/**
+!readline/**
+!.gitignore
+!user-dirs.locale
