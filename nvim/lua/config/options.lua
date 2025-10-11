@@ -25,4 +25,4 @@ vim.o.splitbelow = true -- Open horizontal split below
 vim.g.mapleader = " " -- Special character for advanced commands
 vim.g.loaded_netrw = 1 -- Disable builtin file explorer
 vim.g.loaded_netrwPlugin = 1
-vim.cmd.filetype("plugin indent on") -- Enable filetype detection, plugins, and indentation
+-- vim.cmd.filetype("plugin indent on") -- Enable filetype detection, plugins, and indentation
