@@ -1,0 +1,20 @@
+[core]
+	fileMode = false
+	autocrlf = input
+	editor = nvim -f
+	pager = nvim -R
+[diff]
+	tool = nvimdiff
+[difftool]
+	prompt = false
+[difftool "nvimdiff"]
+	cmd = nvim -n -c "DiffviewOpen"
+[merge]
+	tool = nvimmerge
+[mergetool]
+	prompt = false
+	keepBackup = false
+[mergetool "nvimmerge"]
+	cmd = nvim -n -c "DiffviewOpen" "$MERGE"
+[init]
+	defaultBranch = main
