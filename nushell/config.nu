@@ -108,3 +108,5 @@ def --env y [...args] {
     }
     rm -fp $tmp
 }
+
+source ([$nu.default-config-dir, "zoxide.nu"] | path join)
