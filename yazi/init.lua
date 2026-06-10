@@ -3,7 +3,7 @@ function Linemode:size_and_mtime()
   if time == 0 then
     time = ""
   else
-    time = os.date("%d %b %Y", time)
+    time = os.date("%d.%m.%Y", time)
   end
   local size = self._file:size()
   return string.format("%s %s", size and ya.readable_size(size) or "-", time)
