@@ -3,5 +3,4 @@ vim.pack.add({
   "https://github.com/nvim-neotest/nvim-nio",
   "https://github.com/j-hui/fidget.nvim",
 })
-local rest = require("rest-nvim.request")
-vim.keymap.set("n", "<leader>rr", rest.run, { desc = "Run request under the cursor" })
+vim.keymap.set("n", "<leader>rr", function() vim.cmd("Rest run") end, { desc = "Run request under the cursor" })

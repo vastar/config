@@ -100,6 +100,7 @@ local lsps = {
   { "marksman" },
   { "nushell" },
   { "postgres_lsp" },
+  { "pyright" },
   { "rust_analyzer" },
   { "systemd_lsp" },
   { "tombi" },
