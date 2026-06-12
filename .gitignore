@@ -5,6 +5,7 @@
 !cmus/rc
 !environment.d/**
 !git/default
+!lazygit/**
 !mpv/**
 !nushell/**
 nushell/history.txt

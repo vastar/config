@@ -1,0 +1,7 @@
+gui:
+  fileTreeSortCaseSensitive: false
+  showRandomTip: false
+  showBottomLine: false
+  border: single
+git:
+  autoFetch: false
