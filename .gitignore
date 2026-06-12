@@ -5,6 +5,7 @@
 !cmus/rc
 !environment.d/**
 !git/default
+!lazydocker/**
 !lazygit/**
 !mpv/**
 !nushell/**
