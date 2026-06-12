@@ -11,3 +11,33 @@ desc = "Chmod on selected files"
 on   = "l"
 run  = "plugin smart-enter"
 desc = "Enter the child directory, or open the file"
+
+[[mgr.prepend_keymap]]
+on   = "F"
+run  = "plugin smart-filter"
+desc = "Smart filter"
+
+[[mgr.prepend_keymap]]
+on   = "e"
+run  = "plugin vcs-files"
+desc = "Show Git file changes"
+
+[[mgr.prepend_keymap]]
+on = "\\"
+run = "plugin split-tabs spl_toggle"
+desc = "Split-tabs: toggle split tabs mode"
+
+[[mgr.prepend_keymap]]
+on = "<Tab>"
+run = "plugin split-tabs spl_switch_tab"
+desc = "Split-tabs: switch to the other pane"
+
+[[mgr.prepend_keymap]]
+on = "P"
+run = "plugin split-tabs spl_preview"
+desc = "Split-tabs: toggle preview pane"
+
+# [[mgr.prepend_keymap]]
+# on   = "P"
+# run  = "plugin toggle-pane min-preview"
+# desc = "Show or hide the preview pane"

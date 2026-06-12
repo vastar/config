@@ -1,6 +1,7 @@
 #:schema https://yazi-rs.github.io/schemas/yazi.json
 
 [mgr]
+ratio = [0, 1, 1]
 sort_by = "extension"
 linemode = "size_and_mtime"
 show_hidden = false
@@ -10,6 +11,53 @@ max_width = 1920
 max_height = 1080
 
 [[opener.edit]]
-run = "nvim %*"
-for = "windows"
+run = "$EDITOR %s"
 block = true
+for = "unix"
+
+[[opener.edit]]
+run = "%EDITOR% %s"
+block = true
+for = "windows"
+
+[[opener.image]]
+run = "imv-dir %s"
+orphan = true
+for = "unix"
+
+[[opener.image_edit]]
+run = "gimp %s"
+orphan = true
+for = "unix"
+
+[[opener.audio]]
+run = "mpv %s"
+orphan = true
+for = "unix"
+
+[[opener.video]]
+run = "mpv %s"
+orphan = true
+for = "unix"
+
+[[open.prepend_rules]]
+mime = "image/*"
+use = ["image", "image_edit"]
+
+[[open.prepend_rules]]
+mime = "audio/*"
+use = "audio"
+
+[[open.prepend_rules]]
+mime = "video/*"
+use = "video"
+
+[[plugin.prepend_fetchers]]
+url   = "*"
+run   = "git"
+group = "git"
+
+[[plugin.prepend_fetchers]]
+url   = "*/"
+run   = "git"
+group = "git"
