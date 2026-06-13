@@ -9,6 +9,6 @@ require("lualine").setup({
   },
   sections = {
     lualine_a = { "mode", dotnet.lualine.jobs },
-    lualine_x = { "rest", dotnet.lualine.active_project },
+    lualine_x = { dotnet.lualine.active_project, "rest", "lsp_status", "filetype", "fileformat", "encoding" },
   }
 })
