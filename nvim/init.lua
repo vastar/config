@@ -24,12 +24,18 @@ vim.o.splitright = true -- Open vertical split right
 vim.o.splitbelow = true -- Open horizontal split below
 vim.o.pumborder = "single" -- Popup border
 vim.o.winborder = "single" -- Floating windows border
+vim.o.fileencodings = "ucs-bom,utf-8,cp1251,default"
+vim.o.keymap = "russian-jcukenwin"
+vim.o.iminsert = 0
+vim.o.imsearch = 0
 vim.g.mapleader = " " -- Special character for advanced commands
 vim.g.netrw_banner = 0 -- Hide banner with help
 vim.g.netrw_liststyle = 3 -- Use tree style view
 vim.g.netrw_preview = 1 -- Split preview vertically
 vim.g.netrw_alto = 0 -- Show preview vertical split on the right
 vim.g.netrw_winsize = 15 -- Use 15% for listing window after opening preview
+
+vim.keymap.set({"i", "c"}, "<A-space>", "<C-^>", { desc = "Toggle keymap language" })
 
 vim.api.nvim_create_autocmd("TextYankPost", {
   group = vim.api.nvim_create_augroup("highlight_yank", {}),
