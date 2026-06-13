@@ -4,17 +4,17 @@
 	editor = nvim -f
 	pager = nvim -R
 [diff]
-	tool = nvimdiff
+	tool = codediff
 [difftool]
 	prompt = false
-[difftool "nvimdiff"]
-	cmd = nvim -n -c "DiffviewOpen"
+[difftool "codediff"]
+	cmd = nvim \"$LOCAL\" \"$REMOTE\" +\"CodeDiff file $LOCAL $REMOTE\"
 [merge]
-	tool = nvimmerge
+	tool = codediff
 [mergetool]
 	prompt = false
 	keepBackup = false
-[mergetool "nvimmerge"]
-	cmd = nvim -n -c "DiffviewOpen" "$MERGE"
+[mergetool "codediff"]
+	cmd = nvim \"$MERGED\" -c \"CodeDiff merge \\\"$MERGED\\\"\"
 [init]
 	defaultBranch = main
