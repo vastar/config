@@ -19,6 +19,7 @@ local lsps = {
   { "marksman" },
   { "nushell" },
   { "postgres_lsp" },
+  { "powershell_es" },
   { "pyright" },
   { "rust_analyzer" },
   { "systemd_lsp" },

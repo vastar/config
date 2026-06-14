@@ -88,6 +88,7 @@ require("nvim-treesitter").install({
   "lua",
   "markdown",
   "nu",
+  "powershell",
   "python",
   "rust",
   "scss",
