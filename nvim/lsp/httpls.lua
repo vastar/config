@@ -9,7 +9,7 @@ return {
   default_config = {
     cmd = cmd,
     filetypes = { '.http' },
-    root_dir = vim.fs.dirname(vim.fs.find('.git', { path = './', upward = true })[1]),
+    root_dir = vim.fs.dirname(vim.fs.find({ '.git', '.env' }, { path = './', upward = true })[1]),
     single_file_support = true,
   },
 }
