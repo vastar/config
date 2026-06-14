@@ -54,6 +54,7 @@ require("which-key").setup({
     return ctx.plugin and 0 or 500
   end
 })
+require("trouble").setup({})
 require("snacks").setup({
   bigfile = {
     enabled = true,
