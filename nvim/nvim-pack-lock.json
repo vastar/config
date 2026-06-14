@@ -76,6 +76,14 @@
       "rev": "882c996cf28183f4d63640de0b4c02ec886d01f2",
       "src": "https://github.com/folke/snacks.nvim"
     },
+    "sort.nvim": {
+      "rev": "fa6318fc6676294bff0fd56ae8e8f9552be1ac7e",
+      "src": "https://github.com/sQVe/sort.nvim"
+    },
+    "splitjoin.nvim": {
+      "rev": "371b5df7c9cef92225599e75ebc8c20434e1f9be",
+      "src": "https://github.com/bennypowers/splitjoin.nvim"
+    },
     "telescope-fzf-native.nvim": {
       "rev": "b25b749b9db64d375d782094e2b9dce53ad53a40",
       "src": "https://github.com/nvim-telescope/telescope-fzf-native.nvim"
@@ -83,6 +91,10 @@
     "telescope.nvim": {
       "rev": "7d324792b7943e4aa16ad007212e6acc6f9fe335",
       "src": "https://github.com/nvim-telescope/telescope.nvim"
+    },
+    "text-case.nvim": {
+      "rev": "e898cfd46fa6cde0e83abb624a16e67d2ffc6457",
+      "src": "https://github.com/johmsalas/text-case.nvim"
     },
     "trouble.nvim": {
       "rev": "bd67efe408d4816e25e8491cc5ad4088e708a69a",

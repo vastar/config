@@ -10,6 +10,9 @@ vim.pack.add({
   "https://github.com/windwp/nvim-autopairs",
   "https://github.com/NMAC427/guess-indent.nvim",
   "https://github.com/lukas-reineke/indent-blankline.nvim",
+  "https://github.com/bennypowers/splitjoin.nvim",
+  "https://github.com/sQVe/sort.nvim",
+  "https://github.com/johmsalas/text-case.nvim",
   "https://github.com/folke/which-key.nvim",
   "https://github.com/folke/trouble.nvim",
   "https://github.com/folke/snacks.nvim",
@@ -42,8 +45,10 @@ require("vscode").setup({
 vim.cmd.colorscheme("vscode")
 
 require("nvim-autopairs").setup()
-require("guess-indent").setup()
+require("guess-indent").setup({})
 require("ibl").setup()
+require("sort").setup({})
+require("textcase").setup({})
 require("which-key").setup({
   delay = function(ctx)
     return ctx.plugin and 0 or 500
