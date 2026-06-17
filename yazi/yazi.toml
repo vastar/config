@@ -52,6 +52,14 @@ use = "audio"
 mime = "video/*"
 use = "video"
 
+[[plugin.prepend_previewers]]
+mime = "video/*"
+run = "file"
+
+[[plugin.prepend_preloaders]]
+mime = "video/*"
+run = "noop"
+
 [[plugin.prepend_fetchers]]
 url   = "*"
 run   = "git"
