@@ -1,42 +1,37 @@
 [[plugin.deps]]
 use = "yazi-rs/plugins:mount"
-rev = "598cdb6"
-hash = "e3260d0b1feded8c8e3ae3afa1169e30"
+rev = "f703392"
+hash = "b95f898e6dc60b52edbc415952e14395"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:chmod"
-rev = "598cdb6"
-hash = "f0c8c378184d5f8abd1b095a443d336d"
+rev = "f703392"
+hash = "87472b05a8c420100f6a2b9cde1e7746"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:smart-enter"
-rev = "598cdb6"
+rev = "f703392"
 hash = "187cc58ba7ac3befd49c342129e6f1b6"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:smart-filter"
-rev = "598cdb6"
-hash = "c887903a63a2ff520081b6d90a4b3392"
+rev = "f703392"
+hash = "d6f7351ea25a43c9b5f4315fa1e23935"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:vcs-files"
-rev = "598cdb6"
-hash = "6b141fbed3c74b45558fbc7088c805ee"
-
-[[plugin.deps]]
-use = "yazi-rs/plugins:git"
-rev = "598cdb6"
-hash = "88e56a64b7ce7c4314427452343fef17"
+rev = "f703392"
+hash = "4f2a05edce73aef2bceb2ee2c134c8f2"
 
 [[plugin.deps]]
 use = "terrakok/split-tabs"
-rev = "da25bc0"
-hash = "108ee3048ba3a0d1ba77df7c41bcb7fe"
+rev = "d0531f4"
+hash = "4298f0a23f6109a92334eef06fc7ffb9"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:toggle-pane"
-rev = "598cdb6"
-hash = "9c7987da2d2a2120dac33abb64132004"
+rev = "f703392"
+hash = "5b2fbef7d1513ce38ff72623a071a5e"
 
 [[flavor.deps]]
 use = "956MB/vscode-dark-modern"
