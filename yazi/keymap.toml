@@ -53,3 +53,8 @@ desc = "Split-tabs: toggle preview pane"
 on   = [ "g", "i" ]
 run  = "plugin lazygit"
 desc = "lazygit"
+
+[[mgr.prepend_keymap]]
+on   = [ "g", "o" ]
+run  = "plugin lazydocker"
+desc = "lazydocker"

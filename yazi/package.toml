@@ -38,6 +38,11 @@ use = "Lil-Dank/lazygit"
 rev = "e73fd74"
 hash = "6ea5f37c7f219671ec504cb8311f889d"
 
+[[plugin.deps]]
+use = "hoftherose/lazydocker"
+rev = "1fcac06"
+hash = "538771c5dbc3364e230a470681bca257"
+
 [[flavor.deps]]
 use = "956MB/vscode-dark-modern"
 rev = "ab7190e"
