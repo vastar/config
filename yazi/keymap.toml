@@ -48,3 +48,8 @@ desc = "Split-tabs: toggle preview pane"
 # on   = "P"
 # run  = "plugin toggle-pane min-preview"
 # desc = "Show or hide the preview pane"
+
+[[mgr.prepend_keymap]]
+on   = [ "g", "i" ]
+run  = "plugin lazygit"
+desc = "lazygit"

@@ -33,6 +33,11 @@ use = "yazi-rs/plugins:toggle-pane"
 rev = "f703392"
 hash = "5b2fbef7d1513ce38ff72623a071a5e"
 
+[[plugin.deps]]
+use = "Lil-Dank/lazygit"
+rev = "e73fd74"
+hash = "6ea5f37c7f219671ec504cb8311f889d"
+
 [[flavor.deps]]
 use = "956MB/vscode-dark-modern"
 rev = "ab7190e"
