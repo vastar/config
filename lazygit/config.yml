@@ -3,5 +3,32 @@ gui:
   showRandomTip: false
   showBottomLine: false
   border: single
+  theme:
+    activeBorderColor:
+      - '#3994BC'
+      - bold
+    inactiveBorderColor:
+      - '#8C8C8C'
+    searchingActiveBorderColor:
+      - '#E0B97F'
+      - bold
+    optionsTextColor:
+      - '#48A0C7'
+    selectedLineBgColor:
+      - '#323334'
+    inactiveViewSelectedLineBgColor:
+      - '#2C2D2E'
+    cherryPickedCommitFgColor:
+      - '#FFFFFF'
+    cherryPickedCommitBgColor:
+      - '#297AA0'
+    markedBaseCommitFgColor:
+      - '#121314'
+    markedBaseCommitBgColor:
+      - '#E0B97F'
+    unstagedChangesColor:
+      - '#E5BA7D'
+    defaultFgColor:
+      - '#BBBEBF'
 git:
   autoFetch: false
